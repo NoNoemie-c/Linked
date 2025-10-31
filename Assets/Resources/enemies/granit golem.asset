@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2d39170dafc4384b98a4a0489b5760, type: 3}
+  m_Name: granit golem
+  m_EditorClassIdentifier: 
+  Moves:
+  - {fileID: 11400000, guid: 032f0c60ecad64e2dae1a3f6d2a35adf, type: 2}
+  - {fileID: 11400000, guid: d078ee40f20034545844f5db15cd3416, type: 2}
+  - {fileID: 11400000, guid: 460eacee59be1413aa48ed7681554667, type: 2}
+  - {fileID: 0}
+  stat_hp: 45
+  stat_energy: 18
+  sprite: {fileID: 21300000, guid: 59b2fac0a0c144243904054656be21bf, type: 3}
+  domain: 
+  Name: Pedro
+  nextMoves: []
+  prevMoves: []
+  movesRarity: 00000000000000000000000001000000
+  rarity: 6

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93231e8ffe2124e0a9c88bd574019210, type: 3}
+  m_Name: two edged sword
+  m_EditorClassIdentifier: 
+  type: 0
+  Name: two edged sword
+  description: '- Deals 2 damage to all enemies
+
+'
+  chance: 1
+  energyCost: 10
+  rarity: 2
+  energyGiveBack: 0
+  attack: 2
+  block: 0
+  healing: 0
+  selfDamage: 0
+  appliesTo: 1
+  oncePerBattle: 0
+  usableEveryNturns: 0
+  waitTurns: 0
+  repeat: 0
+  _effects: 
+  effectsStrength: 
+  effectsTargetEnemy: 
+  code: 
+  codeDesc: 

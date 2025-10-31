@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2d39170dafc4384b98a4a0489b5760, type: 3}
+  m_Name: soul corrupter
+  m_EditorClassIdentifier: 
+  Moves:
+  - {fileID: 11400000, guid: 057524bb1d95741b8820913bb53b9138, type: 2}
+  - {fileID: 11400000, guid: 60b923f5a118f47fb9f974a6ff189bf9, type: 2}
+  - {fileID: 11400000, guid: 2552aba0c01ae43ff8b1655bfe523365, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  stat_hp: 30
+  stat_energy: 18
+  sprite: {fileID: 21300000, guid: da6119cd7097045bb86cd443e98db406, type: 3}
+  domain: 
+  Name: Didier
+  nextMoves: []
+  prevMoves: []
+  movesRarity: 0000000000000000000000000200000003000000
+  rarity: 4

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93231e8ffe2124e0a9c88bd574019210, type: 3}
+  m_Name: the kamikaze
+  m_EditorClassIdentifier: 
+  type: 0
+  Name: the kamikaze
+  description: '  once per battle
+
+    - Deals 1000000000 damage to target
+
+    -
+    puts the user''s hp to 1, but doesn''t deal any damage if their hp was already
+    at 1'
+  chance: 1
+  energyCost: 18
+  rarity: 0
+  energyGiveBack: 0
+  attack: 1000000000
+  block: 0
+  healing: 0
+  selfDamage: 0
+  appliesTo: 0
+  oncePerBattle: 1
+  usableEveryNturns: 0
+  waitTurns: 0
+  repeat: 1
+  _effects: 
+  effectsStrength: 
+  effectsTargetEnemy: 
+  code: caster.hp=1:attack=0;true:selfDamage=caster.hp-1;
+  codeDesc: '- puts the user''s hp to 1, but doesn''t deal any damage if their hp
+    was already at 1'
